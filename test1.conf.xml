@@ -1,0 +1,16 @@
+<configuration name="test1.conf" description="ODBC Query Module">
+<settings>
+ <setting name="default">
+  <db_setting>
+    <param name="odbc_dsn" value="testing:root:ecosmob"/>
+    <param name="dbname" value="testing"/>
+  </db_setting>
+  <redis_profile>	
+    <param name="hostname" value="127.0.0.1"/>
+    <param name="password" value="ecosmob"/>
+    <param name="port" value="6379"/>
+    <param name="timeout_ms" value="500"/>
+  </redis_profile>	
+ </setting>
+</settings>
+</configuration>
